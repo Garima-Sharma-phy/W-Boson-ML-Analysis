@@ -1,6 +1,6 @@
 # W Boson Event Classification Using Machine Learning
 
-Masters Project — [Panjab University,Chandigarh] — [2026]
+Masters Project — Panjab University,Chandigarh— 2026
 
 ## Overview
 This repository contains all code for my Masters dissertation:
@@ -47,3 +47,5 @@ https://opendata.cern.ch
 Dr. Vipin Bhatnagar, Department of Physics, Panjab University, Chandigarh
 
 
+# W-Boson-ML-Analysis
+W boson event classification using BDT on CMS NanoAOD data
