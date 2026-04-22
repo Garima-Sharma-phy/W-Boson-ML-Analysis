@@ -1,6 +1,6 @@
 # W Boson Event Classification Using Machine Learning
 
-Masters Project — Panjab University,Chandigarh— 2026
+Masters Project — Panjab University, Chandigarh— 2026
 
 ## Overview
 This repository contains all code for my Masters dissertation:
@@ -23,12 +23,12 @@ pip install uproot awkward numpy pandas scikit-learn
 ## How to Run
 ```bash
 # Step 1: Convert ROOT files to CSV
-python3 data_processing/simulated_data.py
-python3 data_processing/z_background.py
-python3 data_processing/merge_files.py
+python3 data_processing/W_files_root_to_csv.py
+python3 data_processing/background_root_to_csv.py
+python3 data_processing/merge_data_files.py
 
 # Step 2: Train the classifier
-python3 training/train_simulation.py
+python3 training/training_BDT.py
 
 # Step 3: Evaluate performance
 python3 evaluation/feature_removal.py
