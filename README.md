@@ -23,7 +23,7 @@ pip install uproot awkward numpy pandas scikit-learn
 ## How to Run
 ```bash
 # Step 1: Convert ROOT files to CSV
-python3 data_processing/W_files_root_to_csv.py
+python3 data_processing/W_files_root_to_csv_converter.py
 python3 data_processing/background_root_to_csv.py
 python3 data_processing/merge_data_files.py
 
